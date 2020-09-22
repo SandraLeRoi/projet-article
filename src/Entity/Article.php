@@ -23,9 +23,9 @@ class Article
     private $title;
 
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="date", nullable=true)
      */
-    private $date_publication;
+    private $datePublication;
 
     /**
      * @ORM\Column(type="text")
@@ -51,12 +51,12 @@ class Article
 
     public function getDatePublication(): ?\DateTimeInterface
     {
-        return $this->date_publication;
+        return $this->datePublication;
     }
 
-    public function setDatePublication(\DateTimeInterface $date_publication): self
+    public function setDatePublication(\DateTimeInterface $datePublication): self
     {
-        $this->date_publication = $date_publication;
+        $this->datePublication = $datePublication;
 
         return $this;
     }

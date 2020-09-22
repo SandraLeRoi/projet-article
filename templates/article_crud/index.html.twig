@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello ArticleCrudController!{% endblock %}
+{% block title %}Liste des articles{% endblock %}
 
 {% block body %}
 <style>
@@ -9,12 +9,15 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
+    <h1>Articles</h1>
     <ul>
-        <li>Your controller at <code><a href="{{ 'C:/Users/Hoc/Documents/web_mobile/projet-article/src/Controller/ArticleCrudController.php'|file_link(0) }}">src/Controller/ArticleCrudController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/Users/Hoc/Documents/web_mobile/projet-article/templates/article_crud/index.html.twig'|file_link(0) }}">templates/article_crud/index.html.twig</a></code></li>
+        {% for article in articles %}
+            <li>
+                <a href="{{ path('article_read', {"article": article.id}) }}">{{ article.title }}</a>
+            </li>
+        {% endfor %}
     </ul>
+
+    <a href="{{ path('article_create') }}">Créer un nouvel article</a>
 </div>
 {% endblock %}

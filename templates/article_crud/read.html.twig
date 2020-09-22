@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <a href="{{ path('articles_index') }}">Retour</a>
+    <h1>{{ article.title }}</h1>
+    <h2>{{ article.datePublication | date("d/m/Y") }}</h2>
+    <h2>{{ article.content }}</h2>
+    <a href="{{ path('article_update', {"article": article.id}) }}">Modifier</a>
+    <a href="{{ path('article_delete', {"article": article.id} ) }}">Supprimer</a>
+
+{% endblock %}
+
+{% block title %}
+    Article {{ article.title }}
+
+{% endblock %}
