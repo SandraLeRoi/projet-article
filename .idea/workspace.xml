@@ -11,15 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78f3c05a-ba5a-414a-95dd-a2856b091588" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/ArticleType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/ArticleType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/article_crud/create.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/article_crud/read.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/article_crud/update.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/migrations/Version20200922144006.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entity/Tags.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Repository/TagsRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ArticleCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleCrudController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/article_crud/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/article_crud/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600761109777</updated>
-      <workItem from="1600761110816" duration="6693000" />
+      <workItem from="1600761110816" duration="11644000" />
     </task>
     <servers />
   </component>
