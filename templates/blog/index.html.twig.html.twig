@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {% for article in articles %}
+        <li><a href={{ path('article_read',{"article":article.id}) }}>{{ article.title }}</a></li>
+    {% endfor %}
+{% endblock %}
+
+{% block title %}
+
+{% endblock %}
+

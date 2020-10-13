@@ -11,18 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78f3c05a-ba5a-414a-95dd-a2856b091588" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/migrations/Version20200922144006.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Tags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/TagsRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Form/ResearchType.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/index.html.twig.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog/search.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -144,9 +146,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../premier-projet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -165,6 +168,8 @@
       <option name="presentableId" value="Default" />
       <updated>1600761109777</updated>
       <workItem from="1600761110816" duration="11644000" />
+      <workItem from="1602486910890" duration="12229000" />
+      <workItem from="1602509130999" duration="4971000" />
     </task>
     <servers />
   </component>
@@ -181,6 +186,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -190,10 +196,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="770" y="399" key="#Composer/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600761141583" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602489228292">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602489228292" />
     <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600761652910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600761652910" />
+    <state x="617" y="127" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602495814017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="617" y="127" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602495814017" />
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600765496407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -202,6 +216,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600762337268" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1602489294483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602489294483" />
     <state x="682" y="243" key="NewPhpClassDialog" timestamp="1600766221843">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

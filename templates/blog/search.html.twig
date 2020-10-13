@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Page de recherche</h1>
+    {{ form(SearchForm) }}
+    {% for article in articles %}
+        <h2>{{ article.title }}</h2>
+    {% endfor %}
+{% endblock %}
+
+{% block title %}
+
+{% endblock %}
