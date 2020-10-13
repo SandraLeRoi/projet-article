@@ -4,9 +4,11 @@ namespace App\Controller;
 
 use App\Form\ResearchType;
 use App\Repository\ArticleRepository;
+use App\Service\MessageGenerator;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
+
 
 /**
  * @Route("/blog")
@@ -16,11 +18,15 @@ class BlogController extends AbstractController
     /**
      * @Route("/", name="blog_index", methods={"GET"})
      */
-    public function index(ArticleRepository $articleRepository)
+    public function index(ArticleRepository $articleRepository, MessageGenerator $messageGenerator)
     {
+        $message = $messageGenerator->getMessage();
+        $titles = $messageGenerator->getLastArticleTitle();
         $articles = $articleRepository->getThisYearArticles();
         return $this->render('blog/index.html.twig.html.twig', [
             'articles' => $articles,
+            "message" => $message,
+            "title" => $titles
         ]);
     }
 

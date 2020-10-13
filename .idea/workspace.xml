@@ -11,13 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78f3c05a-ba5a-414a-95dd-a2856b091588" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/ResearchType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/index.html.twig.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/search.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Service/MessageGenerator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/ArticleRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/BlogController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,9 +147,9 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../skeleton-project" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -170,6 +168,7 @@
       <workItem from="1600761110816" duration="11644000" />
       <workItem from="1602486910890" duration="12229000" />
       <workItem from="1602509130999" duration="4971000" />
+      <workItem from="1602573010139" duration="8723000" />
     </task>
     <servers />
   </component>
@@ -200,10 +199,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602489228292" />
-    <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600761652910">
+    <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602573986680">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600761652910" />
+    <state x="720" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602573986680" />
     <state x="617" y="127" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602495814017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -212,22 +211,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600765496407" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1600762337268">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602581032173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600762337268" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602581032173" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1602489294483">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602489294483" />
-    <state x="682" y="243" key="NewPhpClassDialog" timestamp="1600766221843">
+    <state x="682" y="243" key="NewPhpClassDialog" timestamp="1602577054438">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="682" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600766221843" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1600767612914">
+    <state x="682" y="243" key="NewPhpClassDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602577054438" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1602578078085">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600767612914" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1602578078085" />
     <state x="667" y="76" width="585" height="888" key="find.popup" timestamp="1600768973619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
